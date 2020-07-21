@@ -1,5 +1,5 @@
 {
-  "version": "2.3.6",
+  "version": "2.3.7",
   "packages": [
     "packages/*"
   ],
@@ -20,7 +20,6 @@
         "release-*"
       ],
       "conventionalCommits": true,
-      "createRelease": "github",
       "message": "chore(release): publish %s :tada: :rocket:"
     }
   }
