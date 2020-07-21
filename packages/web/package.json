@@ -1,0 +1,32 @@
+{
+  "name": "test-lerna-version",
+  "private": true,
+  "version": "2.3.1",
+  "description": "",
+  "scripts": {
+    "build": "lerna run build",
+    "bootstrap": "lerna bootstrap",
+    "test": "lerna run test",
+    "test-coverage": "lerna run test-coverage",
+    "dev:push": "lerna run dev:push",
+    "release": "lerna publish",
+    "lint": "eslint --ext js,jsx ."
+  },
+  "homepage": "",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "keywords": [
+    "react",
+    "react native",
+    "countdown",
+    "timer",
+    "circle",
+    "clock",
+    "SVG"
+  ],
+  "author": "Vasil Dimitrov",
+  "license": "MIT",
+  "devDependencies": {}
+}

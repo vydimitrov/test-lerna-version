@@ -57,13 +57,5 @@
     "react-test-renderer": ">=16.8.0",
     "webpack": "^4.40.2",
     "webpack-cli": "^3.3.8"
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged"
-    }
-  },
-  "lint-staged": {
-    "*.{js,jsx}": "eslint --fix"
   }
 }
