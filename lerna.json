@@ -1,12 +1,12 @@
 {
-  "version": "2.3.5",
+  "version": "2.3.6",
   "packages": [
     "packages/*"
   ],
   "npmClient": "yarn",
   "useWorkspaces": true,
   "command": {
-    "version": {
+    "publish": {
       "preid": "next",
       "ignoreChanges": [
         "**/__tests__/**",
@@ -22,9 +22,6 @@
       "conventionalCommits": true,
       "createRelease": "github",
       "message": "chore(release): publish %s :tada: :rocket:"
-    },
-    "publish": {
-      "conventionalCommits": true
     }
   }
 }
