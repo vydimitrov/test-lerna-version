@@ -21,6 +21,7 @@
         "release-*"
       ],
       "conventionalCommits": true,
+      "changelogPreset": "conventional-changelog-conventionalcommits",
       "createRelease": "github",
       "message": "chore(release): publish %s :tada: :rocket:"
     },
