@@ -28,9 +28,5 @@ jobs:
 
       - name: Create a release on GitHub
         if: success()
-        run: yarn lerna version --yes
-
-      - name: Release packages to NPM
-        if: success()
-        run: yarn lerna publish from-package --yes
+        run: yarn lerna version
      
