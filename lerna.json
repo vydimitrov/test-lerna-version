@@ -1,24 +1,13 @@
 {
   "version": "2.3.25",
-  "packages": [
-    "packages/*"
-  ],
+  "packages": ["packages/*"],
   "command": {
     "version": {
-      "ignoreChanges": [
-        "**/__tests__/**",
-        "**/*.md",
-        "**/*.yml",
-        "lerna.json"
-      ],
       "conventionalCommits": true,
-      "createRelease": "github",
-      "message": "chore(release): publish %s :tada: :rocket:",
-      "yes": true
+      "message": "chore(release): publish %s :tada: :rocket:"
     },
     "publish": {
-      "conventionalCommits": true,
-      "yes": true
+      "conventionalCommits": true
     }
   }
 }
