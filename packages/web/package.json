@@ -1,7 +1,7 @@
 {
   "name": "test-lerna-version",
   "private": true,
-  "version": "2.3.17",
+  "version": "2.3.18",
   "description": "",
   "scripts": {
     "build": "lerna run build",
