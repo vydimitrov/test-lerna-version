@@ -20,13 +20,9 @@ jobs:
       - name: Install dependencies
         run: yarn --frozen-lockfile
 
-      - name: Create ".npmrc" file in the project root
-        run: echo "//registry.npmjs.org/:_authToken=\${NPM_TOKEN}" > .npmrc
-
       - name: Set git username
         run: git config --global user.name "vydimitrov"
 
       - name: Create a release on GitHub
-        if: success()
         run: yarn lerna version
      
