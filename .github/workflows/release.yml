@@ -19,9 +19,6 @@ jobs:
           
       - name: Install dependencies
         run: yarn --frozen-lockfile
-        
-      - name: Build
-        run: yarn build
 
       - name: Create ".npmrc" file in the project root
         run: echo "//registry.npmjs.org/:_authToken=\${NPM_TOKEN}" > .npmrc
