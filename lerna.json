@@ -1,24 +1,31 @@
 {
-  "version": "2.3.28",
+  "version": "2.4.0",
   "packages": [
     "packages/*"
   ],
+  "npmClient": "yarn",
+  "useWorkspaces": true,
   "command": {
     "version": {
+      "preid": "next",
       "ignoreChanges": [
         "**/__tests__/**",
         "**/*.md",
         "**/*.yml",
         "lerna.json"
       ],
+      "allowBranch": [
+        "master",
+        "next",
+        "develop",
+        "release-*"
+      ],
       "conventionalCommits": true,
       "createRelease": "github",
-      "message": "chore(release): publish %s :tada: :rocket:",
-      "yes": true
+      "message": "chore(release): publish %s :tada: :rocket:"
     },
     "publish": {
-      "conventionalCommits": true,
-      "yes": true
+      "conventionalCommits": true
     }
   }
 }
