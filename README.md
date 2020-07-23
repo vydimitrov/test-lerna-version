@@ -1,2 +1,2 @@
 # Test Lerna Version
-test 22
+test 24
