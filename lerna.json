@@ -8,12 +8,6 @@
   "command": {
     "version": {
       "preid": "next",
-      "ignoreChanges": [
-        "**/__tests__/**",
-        "**/*.md",
-        "**/*.yml",
-        "lerna.json"
-      ],
       "allowBranch": [
         "master",
         "next",
