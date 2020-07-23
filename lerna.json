@@ -22,10 +22,12 @@
       ],
       "conventionalCommits": true,
       "createRelease": "github",
-      "message": "chore(release): publish %s :tada: :rocket:"
+      "message": "chore(release): publish %s :tada: :rocket:",
+      "yes": true
     },
     "publish": {
-      "conventionalCommits": true
+      "conventionalCommits": true,
+      "yes": true
     }
   }
 }
