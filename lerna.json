@@ -12,6 +12,7 @@
         "lerna.json"
       ],
       "conventionalCommits": true,
+      "createRelease": "github",
       "message": "chore(release): publish %s :tada: :rocket:",
       "yes": true
     },
