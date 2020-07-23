@@ -24,5 +24,5 @@ jobs:
         run: git config --global user.name "vydimitrov"
         
       - name: Create a release on GitHub
-        run: yarn lerna changed --all --long
+        run: yarn lerna changed --long
      
