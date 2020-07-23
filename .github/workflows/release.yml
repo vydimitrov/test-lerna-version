@@ -15,14 +15,16 @@ jobs:
       - name: Setup Node
         uses: actions/setup-node@v1
         with:
-          node-version: "12"
-          
-      - name: Install dependencies
-        run: yarn --frozen-lockfile
+          node-version: '13.x'
+      - name: Build and Test
+        run: yarn
+
+      - name: Create ".npmrc" file in the project root
+        run: echo "//registry.npmjs.org/:_authToken=\${NPM_TOKEN}" > .npmrc
 
       - name: Set git username
         run: git config --global user.name "vydimitrov"
         
-      - name: Create a release on GitHub
-        run: yarn lerna changed --long
-     
+      - name: Changed
+        if: success()
+        run: yarn lerna changed --long    
