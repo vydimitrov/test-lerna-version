@@ -26,5 +26,4 @@ jobs:
         run: git config --global user.name "vydimitrov"
  
       - name: Create a release on GitHub
-        if: success()
-        run: yarn lerna version --yes
+        run: yarn lerna changed --long
