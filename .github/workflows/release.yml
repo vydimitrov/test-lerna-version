@@ -22,7 +22,7 @@ jobs:
 
       - name: Set git username
         run: git config --global user.name "vydimitrov"
-
+        
       - name: Create a release on GitHub
-        run: yarn lerna version
+        run: yarn lerna changed --all --long
      
