@@ -19,7 +19,6 @@ jobs:
       - name: Build and Test
         run: |
           yarn install
-          yarn bootstrap
 
       - name: Create ".npmrc" file in the project root
         run: echo "//registry.npmjs.org/:_authToken=\${NPM_TOKEN}" > .npmrc
