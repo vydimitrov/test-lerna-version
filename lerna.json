@@ -1,15 +1,16 @@
 {
-  "version": "2.3.26",
-  "packages": [
-    "packages/*"
-  ],
+  "version": "2.3.25",
+  "packages": ["packages/*"],
   "command": {
     "version": {
+      "ignoreChanges": ["**/__tests__/**", "**/*.md", "**/*.yml", "lerna.json"],
       "conventionalCommits": true,
-      "message": "chore(release): publish %s :tada: :rocket:"
+      "message": "chore(release): publish %s :tada: :rocket:",
+      "yes": true
     },
     "publish": {
-      "conventionalCommits": true
+      "conventionalCommits": true,
+      "yes": true
     }
   }
 }
