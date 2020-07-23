@@ -27,7 +27,7 @@ jobs:
         
       - name: Changed
         if: success()
-        run: yarn lerna changed --long    
+        run: yarn lerna changed  
  
       - name: Create a release on GitHub
         if: success()
