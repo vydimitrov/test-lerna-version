@@ -24,11 +24,7 @@ jobs:
 
       - name: Set git username
         run: git config --global user.name "vydimitrov"
-        
-      - name: Changed
-        if: success()
-        run: yarn lerna changed  
  
       - name: Create a release on GitHub
         if: success()
-        run: yarn lerna version
+        run: yarn lerna version --yes
