@@ -6,11 +6,12 @@
   "npmClient": "yarn",
   "useWorkspaces": true,
   "command": {
-    "publish": {
+    "version": {
       "preid": "next",
       "ignoreChanges": [
         "**/__tests__/**",
         "**/*.md",
+        "**/*.yml",
         "lerna.json"
       ],
       "allowBranch": [
@@ -22,6 +23,9 @@
       "conventionalCommits": true,
       "createRelease": "github",
       "message": "chore(release): publish %s :tada: :rocket:"
+    },
+    "publish": {
+      "conventionalCommits": true
     }
   }
 }
