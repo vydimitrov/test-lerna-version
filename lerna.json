@@ -1,6 +1,8 @@
 {
-  "version": "2.3.25",
-  "packages": ["packages/*"],
+  "version": "2.3.26",
+  "packages": [
+    "packages/*"
+  ],
   "command": {
     "version": {
       "conventionalCommits": true,
