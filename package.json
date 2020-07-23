@@ -6,7 +6,7 @@
     "packages/*"
   ],
   "scripts": {
-    "build": "lerna run build",
+    "build": "lerna run build --stream",
     "bootstrap": "lerna bootstrap",
     "test": "lerna run test",
     "test-coverage": "lerna run test-coverage",
