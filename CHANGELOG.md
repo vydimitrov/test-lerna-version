@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 2.4.1 (2020-07-23)
+
+**Note:** Version bump only for package test-lerna-version
+
+
+
+
+
 ## 2.3.28 (2020-07-23)
 
 **Note:** Version bump only for package test-lerna-version
