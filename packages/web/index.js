@@ -1,2 +1,2 @@
 console.log("yes");
-console.log("yes yes 22");
+console.log("yes yes");
