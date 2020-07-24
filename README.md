@@ -1,3 +1,3 @@
 # Test Lerna Version
 
-test 26724
+test
