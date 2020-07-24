@@ -1,7 +1,7 @@
 {
   "name": "test-lerna-version-web",
   "private": true,
-  "version": "2.5.2",
+  "version": "2.5.3",
   "description": "",
   "main": "index.js",
   "scripts": {
